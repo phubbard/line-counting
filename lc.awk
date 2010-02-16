@@ -148,6 +148,7 @@ END {
 	j = length(str) + (name_len - 4)
 
 	# Finish off the header line
+	printf("\n")
 	for(i = j; i < 80; i++) {printf("-")}
 
 	# Dump constructed lines of data
